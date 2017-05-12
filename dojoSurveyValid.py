@@ -24,6 +24,9 @@ def process():
     if len(session['comments']) < 1:
         flash('Comment field is required')
         return redirect('/')
+    if len(session['comments']) > 120:
+        flash('Comment field must be less than 120 characters')
+        return redirect('/')
     return redirect('/submit')
 
 @app.route('/submit')
