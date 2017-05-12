@@ -30,6 +30,13 @@
                 <p>Comment (optional):
                 <textarea id="comments" name="comments" rows="8" cols="80"></textarea>
                 <input type="submit" name="submitButton">
+                {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                    {% for message in messages %}
+                      <p>{{message}}</p>
+                    {% endfor %}
+                  {% endif %}
+                {% endwith %}
             </form>
         </div> <!-- wrapper -->
     </body>
