@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif, serif;
+}
+p{
+    margin-bottom: 10px;
+}
+
+#wrapper{
+    background-color: silver;
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+}
+
+#yourName{
+    margin-right: 58px;
+}
+
+#dojoLocation{
+    margin-right: 35px;
+}
+
+.upper{
+    background-color: yellow;
+    height: 200px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#name{
+    height: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+select{
+    height: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+#comments{
+    text-align: left;
+    width: 340px;
+    height: 200px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0.4em;
+    padding-right: 0.4em;
+}
